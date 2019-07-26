@@ -1,0 +1,4 @@
+(*redactif_test.untagged)({
+  a: (string) (len=5) "hello",
+  b: (int) 1337
+})

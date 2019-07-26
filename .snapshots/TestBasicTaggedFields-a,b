@@ -1,0 +1,21 @@
+(*redactif_test.tagged)({
+  a: (string) "",
+  notB: (int) 1337,
+  aOrNotB: (bool) false,
+  recurse: (redactif_test.substruct) {
+    a: (string) "",
+    notB: (int) 8161,
+    aOrNotB: (bool) false
+  },
+  pointerRecurse: (*redactif_test.tagged)({
+    a: (string) "",
+    notB: (int) 16353,
+    aOrNotB: (bool) false,
+    recurse: (redactif_test.substruct) {
+      a: (string) "",
+      notB: (int) 0,
+      aOrNotB: (bool) false
+    },
+    pointerRecurse: (*redactif_test.tagged)(<already shown>)
+  })
+})
